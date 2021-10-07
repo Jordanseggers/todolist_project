@@ -1,0 +1,29 @@
+{
+  "dependencies": {},
+  "name": "todolist",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "babel": "babel lib --out-dir dist --presets=@babel/preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jordanseggers/todolist_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jordanseggers/todolist_project/issues"
+  },
+  "homepage": "https://github.com/Jordanseggers/todolist_project#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6"
+  }
+}
